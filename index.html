@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>星级评分--第一种实现方式</title>
+<style>
+body,ul,li{
+ padding:0;
+ margin:0;
+}
+li{
+  list-style-type:none;
+}
+.rating{
+ width:130px;
+ height:28px;
+ margin:100px auto;
+}
+.rating-item{
+ float:left;
+ width:26px;
+ height:28px;
+ background:url('img/start.png') no-repeat;
+ cursor:pointer;
+}
+</style>
+</head>
+<body>
+  
+  <ul class="rating" id="rating">
+    <li class="rating-item" title="很不好">
+	<li class="rating-item" title="不好">
+	<li class="rating-item" title="一般">
+	<li class="rating-item" title="好">
+	<li class="rating-item" title="很好">
+  </ul>
+  <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    console.log($);
+  </script>
+</body>
+</html>
